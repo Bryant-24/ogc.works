@@ -9,6 +9,10 @@
 @import "banner.css";
 @import "subscribe.css";
 @import "our-training.css";
+@import "services-list.css";
+
+/* TEMP */
+@import "temp.css";
 
 /* BASE */
 @import "base/footer.css";

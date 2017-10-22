@@ -5,6 +5,34 @@ body {
 	font-weight: 400;
 }
 
+h1 {
+	position: absolute;
+	top: 135px;
+	right: 0;
+	left: 0;
+	padding: 58px 0;
+	font-size: 42px;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-align: center;
+	background: #f7f7f7;
+}
+
+p {
+	margin: 0 101px 32px;
+	font-size: 20px;
+	line-height: 32px;
+}
+
+a {
+	text-decoration: none;
+	color: #196440
+}
+
+img {
+	max-width: 100%;
+}
+
 ul {
 	margin: 0;
 	padding: 0;
@@ -27,6 +55,9 @@ ul {
 }
 
 @media (max-width: 739px) {
+	p {
+		margin: 0 0 32px;
+	}
 	.container {
 		width: 100%;
 		box-sizing: border-box;

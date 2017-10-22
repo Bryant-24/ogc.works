@@ -1,0 +1,130 @@
+.services-list {}
+
+.services-list__item {
+	position: relative;
+	margin: 0 0 30px;
+}
+
+.services-list__item-preview {
+	position: relative;
+	float: left;
+	font-size: 0;
+}
+
+.services-list__item-preview::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.25);
+}
+
+.services-list__item-pic {}
+
+.services-list__item-title {
+	position: absolute;
+	bottom: 33px;
+	left: 41px;
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.services-list__item-detail {
+	height: 328px;
+	margin: 0 0 0 752px;
+	padding: 42px 42px 0 48px;
+	background: #f7f7f7;
+}
+
+.services-list__item-text {
+	margin: 0;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 24px;
+	color: #4b4b4b;
+}
+
+.services-list__item-button {
+	position: absolute;
+	bottom: 11px;
+	right: 192px;
+	display: inline-block;
+	padding: 9px 19px;
+	margin: 0 25px 22px;
+	font-size: 16px;
+	font-weight: 700;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	background: #0d643f;
+	border: 1px solid #0d643f;
+}
+
+.services-list__item-link {
+	position: absolute;
+	display: inline-block;
+	bottom: 38px;
+	right: 72px;
+	width: 80px;
+}
+
+.services-list__item-link i {
+	display: block;
+	float: left;
+	margin: 2px 0 0;
+	font-size: 25px;
+}
+
+.services-list__item-link span {
+	display: block;
+	padding: 0 0 0 30px;
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+@media (max-width: 1163px) {
+	.services-list__item-preview {
+		width: 660px;
+	}
+	.services-list__item-detail {
+		height: 284px;
+		margin: 0 0 0 660px;
+	}
+	.services-list__item-text {
+		font-size: 16px;
+	}
+	.services-list__item-button {
+		right: 144px;
+		bottom: 11px;
+	}
+	.services-list__item-link {
+		right: 60px;
+	}
+}
+
+@media (max-width: 1023px) {
+	.services-list__item-preview {
+		float: none;
+		display: block;
+		width: 100%;
+	}
+	.services-list__item-detail {
+		height: auto;
+		margin: 0;
+		padding: 33px 40px 100px 40px;
+	}
+	.services-list__item-button {
+		right: auto;
+		left: 14px;
+		bottom: 11px;
+	}
+	.services-list__item-link {
+		right: 50px;
+	}
+}
