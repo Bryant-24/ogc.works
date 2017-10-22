@@ -1,0 +1,148 @@
+.top-menu {
+	height: 120px;
+	margin: 0 0 245px;
+}
+
+.top-menu__wrap {
+	margin: 0 0 0 265px;
+	padding: 47px 0 0 0;
+}
+
+.top-menu__logo {
+	float: left;
+	display: inline-block;
+	margin: 29px 0 0 0;
+}
+
+.top-menu__item {
+	display: inline-block;
+}
+
+.top-menu__link {
+	position: relative;
+	margin: 0 0 0 41px;
+	padding: 49px 0 50px;
+	font-size: 18px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #313131;
+}
+
+.top-menu__link:hover {
+	 color: #01652f;
+}
+
+.top-menu__link--additional {
+	padding: 49px 15px 52px 0;
+}
+
+.top-menu__link--additional::after {
+	content: "";
+	position: absolute;
+	top: 58px;
+	right: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 5px solid #313131;
+}
+
+.top-menu__link--additional:hover::after {
+	border-top: 5px solid #01652f;
+}
+
+.top-menu__submenu {
+	display: none;
+	position: absolute;
+	top: 120px;
+	max-width: 200px;
+	margin: 0 0 0 -45px;
+	padding: 14px 31px;
+	background: #fff;
+	border-top: 1px solid #01652f;
+	box-shadow: 0 2px 5px #acacac;
+	z-index: 1;
+}
+
+.top-menu__link:hover + .top-menu__submenu,
+.top-menu__submenu:hover {
+	display: block;
+}
+
+.top-menu__submenu-item {
+	margin: 0 0 14px;
+}
+
+.top-menu__submenu-link {
+	display: inline-block;
+	font-size: 18px;
+	line-height: 1.3;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #313131;
+}
+
+.top-menu__submenu-link:hover {
+	color: #01652f;
+}
+
+.top-menu__submenu-item:last-child {
+	margin: 0;
+}
+
+.top-menu__switch {
+	position: absolute;
+	display: none;
+	top: 40px;
+	right: 10px;
+	padding: 0 12px 4px;
+	font-size: 30px;
+	text-decoration: none;
+	color: #01652f;
+	border: 1px solid #01652f;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+@media (max-width: 1163px) {
+	.top-menu__wrap {
+		margin: 0 0 0 200px;
+	}
+	.top-menu__link {
+		margin: 0 0 0 27px;
+	}
+}
+
+@media (max-width: 1023px) {
+	.top-menu__in-wrap {
+		position: absolute;
+		top: 120px;
+		left: 0;
+		right: 0;
+		border-right: 1px solid #cdcdcd;
+		border-left: 1px solid #cdcdcd;
+		transition: opacity 0.5s ease-in-out;
+		opacity: 0;
+	}
+	.top-menu__in-wrap--show {
+		display: block;
+		opacity: 1;
+	}
+	.top-menu__item {
+		display: block;
+	}
+	.top-menu__link {
+		display: block;
+		margin: 0;
+		padding: 10px;
+		border-bottom: 1px solid #cdcdcd;
+	}
+	.top-menu__link--additional::after {
+		display: none;
+	}
+	.top-menu__link:hover + .top-menu__submenu {
+		display: none;
+	}
+	.top-menu__switch {
+		display: inline-block;
+	}
+}
