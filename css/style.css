@@ -1,6 +1,14 @@
-/* Base */
+/* BASE */
 @import "https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700";
 @import "base/font-awesome.css";
 @import "base/main.css";
 @import "base/top-line.css";
 @import "base/top-menu.css";
+
+/* INDEX */
+@import "banner.css";
+@import "subscribe.css";
+@import "our-training.css";
+
+/* BASE */
+@import "base/footer.css";

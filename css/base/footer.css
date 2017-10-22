@@ -1,0 +1,138 @@
+.footer {
+	margin: 76px 0 0;
+	font-size: 15px;
+	font-weight: 300;
+	color: #fff;
+	background: #002c1a;
+}
+
+.footer__phone {
+	display: inline-block;
+	width: 367px;
+	padding: 18px 0;
+	text-align: center;
+	text-transform: uppercase;
+	vertical-align: top;
+}
+
+.footer__phone-icon {
+	display: inline-block;
+	margin: 0 0 10px;
+	padding: 4px 13px;
+	font-size: 30px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+}
+
+.footer__phone-link {
+	display: block;
+	margin: 0 0 45px;
+	text-decoration: none;
+	text-transform: none;
+	color: #fff;
+}
+
+.footer__email {
+	display: inline-block;
+	width: 405px;
+	padding: 18px 0;
+	text-align: center;
+	vertical-align: top;
+}
+
+.footer__email-icon {
+	display: inline-block;
+	margin: 0 0 10px;
+	padding: 10px 11px;
+	font-size: 18px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+}
+
+.footer__email-link {
+	display: block;
+	margin: 0 0 45px;
+	text-decoration: none;
+	text-transform: none;
+	color: #fff;
+}
+
+.footer__address {
+	display: inline-block;
+	width: 365px;
+	padding: 18px 0 0;
+	text-align: center;
+	vertical-align: top;
+}
+
+.footer__address-icon {
+	display: inline-block;
+	margin: 0 0 10px;
+	padding: 10px 14px;
+	font-size: 22px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+}
+
+.footer__address-link {
+	display: block;
+	margin: 0 0 30px;
+	text-decoration: none;
+	text-transform: none;
+	color: #fff;
+}
+
+.footer__address-social {
+	display: inline-block;
+	margin: 0 10px 30px;
+	font-size: 26px;
+	color: #002c1a;
+	background: #fff;
+	border-radius: 50%
+}
+
+.footer__address-social--linkedin {
+	width: 30px;
+	padding: 4px 5px 5px 5px;
+}
+
+.footer__address-social--facebook {
+	width: 30px;
+	padding: 6px 6px 4px 5px;
+}
+
+.footer__address-social--youtube {
+	width: 30px;
+	padding: 5px 5px 5px 6px;
+}
+
+
+
+@media (max-width: 1163px) {
+	.footer__phone {
+		width: 230px;
+	}
+	.footer__address{
+		width: 345px;
+	}
+}
+
+@media (max-width: 1023px) {
+	.footer__phone,
+	.footer__email,
+	.footer__address {
+		display: block;
+		width: 100%;
+	}
+	.footer__phone-link,
+	.footer__email-link {
+		margin: 0 0 10px;
+	}
+}
+
+@media (max-width: 739px) {
+	.container {
+		width: 100%;
+		box-sizing: border-box;
+	}
+}

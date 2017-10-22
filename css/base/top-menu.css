@@ -20,7 +20,7 @@
 
 .top-menu__link {
 	position: relative;
-	margin: 0 0 0 41px;
+	margin: 0 0 0 46px;
 	padding: 49px 0 50px;
 	font-size: 18px;
 	text-decoration: none;
@@ -108,7 +108,7 @@
 		margin: 0 0 0 200px;
 	}
 	.top-menu__link {
-		margin: 0 0 0 27px;
+		margin: 0 0 0 35px;
 	}
 }
 

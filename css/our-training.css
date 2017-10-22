@@ -1,0 +1,75 @@
+.our-training {
+	margin: 110px 0 118px;
+}
+
+.our-training__title {
+	margin: 0 0 53px;
+	font-size: 40px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+	color: #196440;
+}
+
+.our-training__silder {}
+
+.our-training__silde-items {
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.our-training__silder-item {
+	display: inline-block;
+	width: 360px;
+	margin: 0 27px 0 0;
+	background: #f7f7f7;
+	vertical-align: top;
+}
+
+.our-training__silder-item-wrap {}
+
+.our-training__silder-item-pic {
+	display: inline-block;
+	margin: 0 0 20px;
+}
+
+.our-training__silder-item-title {
+	height: 60px;
+	margin: 0 0 10px;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	white-space: normal;
+	color: #196440;
+}
+
+.our-training__silder-info {
+	margin: 0 0 13px;
+	font-size: 20px;
+	font-weight: 300;
+	text-align: center;
+}
+
+.our-training__silder-info span {
+	font-weight: 700;
+}
+
+.our-training__silder-item-link {
+	display: block;
+	padding: 12px 0;
+	margin: 0 25px 22px;
+	font-weight: 700;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	background: #0d643f;
+	border: 1px solid #0d643f;
+}
+
+.our-training__silder-item-link:hover {
+	color: #0d643f;
+	background: #fff;
+}

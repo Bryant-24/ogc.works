@@ -1,0 +1,256 @@
+.banner {
+	height: 762px;
+	margin: -245px 0 0;
+	background: url(../img/banner.jpg) 0 0 no-repeat;
+}
+
+.banner__slider {
+	position: relative;
+	height: 680px;
+}
+
+.banner__slider-items {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	padding: 86px 0 0;
+	overflow: hidden;
+}
+
+.banner__slider-item {
+	display: none;
+	width: 1144px;
+}
+
+.banner__slider-item--active {
+	display: inline-block;
+}
+
+.banner__slider-event {
+	float: left;
+	position: relative;
+	display: inline-block;
+	width: 750px;
+	height: 590px;
+	background-size: contain;
+}
+
+.banner__slider-event::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: linear-gradient(transparent, #196440 100%);
+	opacity: 0.5;
+}
+
+.banner__slider-event-name {
+	position: absolute;
+	right: 100px;
+	bottom: 222px;
+	left: 101px;
+	font-size: 48px;
+	font-weight: 700;
+	color: #fff;
+	z-index: 1;
+}
+
+.banner__slider-event-info {
+	position: absolute;
+	bottom: 120px;
+	left: 101px;
+	font-size: 24px;
+	font-weight: 300;
+	color: #fff;
+	z-index: 1;
+}
+
+.banner__slider-event-info i {
+	width: 20px;
+	margin: 0 3px 0 0;
+	text-align: center;
+}
+
+.banner__slider-event-info span {
+	font-weight: 700;
+}
+
+.banner__slider-button {
+	position: absolute;
+	display: inline-block;
+	bottom: 40px;
+	padding: 10px 40px;
+	font-size: 24px;
+	font-weight: 700;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	z-index: 1;
+}
+
+.banner__slider-button--request {
+	left: 101px;
+	color: #fff;
+	background: #0d643f;
+	border: 1px solid #0d643f;
+}
+
+.banner__slider-button--more {
+	right: 97px;
+	padding: 10px 63px;
+	color: #fff;
+	border: 1px solid #fff;
+}
+
+.banner__slider-title {
+	margin: 0 0 0 830px;
+	text-align: right;
+}
+
+.banner__slider-title-logo {
+	margin: 0 0 28px;
+}
+
+.banner__slider-title-name {
+	font-size: 55px;
+	font-weight: 400;
+	line-height: 66px;
+	color: #196440;
+}
+
+.banner__slider-title-name span {
+	font-weight: 700;
+}
+
+.banner__slider-arrow {
+	position: absolute;
+	bottom: -50px;
+	width: 17px;
+	height: 17px;
+	border-bottom: 3px solid #fff;
+}
+
+.banner__slider-nav {
+	position: absolute;
+	bottom: -50px;
+	left: 348px;
+}
+
+.banner__slider-nav li {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin: 0 4px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+}
+
+.banner__slider-nav li.active {
+	background: #fff;
+}
+
+.banner__slider-arrow--right {
+	right: 397px;
+	border-right: 3px solid #fff;
+	transform: rotate(-45deg);
+}
+
+.banner__slider-arrow--left {
+	left: 7px;
+	border-left: 3px solid #fff;
+	transform: rotate(45deg);
+}
+
+
+@media (max-width: 1163px) {
+	.banner {
+		height: 682px;
+	}
+	.banner__slider-item {
+		width: 1004px;
+	}
+	.banner__slider-event {
+		width: 670px;
+		height: 527px;
+	}
+	.banner__slider-event-name {
+		right: 100px;
+		bottom: 181px;
+		left: 38px;
+	}
+	.banner__slider-event-info {
+		bottom: 90px;
+		left: 40px;
+	}
+	.banner__slider-button {
+		bottom: 25px;
+	}
+	.banner__slider-button--request {
+		left: 41px;
+	}
+	.banner__slider-button--more {
+		right: 47px;
+	}
+	.banner__slider-title {
+		margin: 0 0 0 700px;
+	}
+	.banner__slider-title-name {
+		font-size: 50px;
+		line-height: 50px;
+	}
+}
+
+@media (max-width: 1023px) {
+	.banner {
+		height: auto;
+	}
+	.banner__slider {
+		height: auto;
+	}
+	.banner__slider-items {
+		position: relative;
+		width: 100%;
+		top: auto;
+		left: auto;
+		bottom: auto;
+		padding: 46px 0;
+	}
+	.banner__slider-item {
+		width: 100%;
+	}
+	.banner__slider-event {
+		width: 100%;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	.banner__slider-title {
+		display: none;
+	}
+}
+
+@media (max-width: 739px) {
+	.banner__slider-event-name {
+		left: 30px;
+		right: 30px;
+		bottom: 140px;
+		font-size: 36px;
+	}
+	.banner__slider-event-info {
+		left: 28px;
+		bottom: 80px;
+		font-size: 14px;
+	}
+	.banner__slider-button {
+		padding: 5px 10px;
+		font-size: 16px;
+	}
+	.banner__slider-button--request {
+		left: 30px;
+	}
+	.banner__slider-button--more {
+		right: 47px;
+	}
+}
