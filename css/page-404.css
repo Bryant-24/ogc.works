@@ -1,0 +1,51 @@
+.page-404 {
+	height: 487px;
+	margin: -245px 0 -76px;
+	padding: 175px 0 0;
+	background: url(../img/404.jpg) center 0 no-repeat;
+}
+
+.page-404__title {
+	margin: 0 0 44px;
+	font-size: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #196440;
+}
+
+.page-404__text {
+	width: 560px;
+	margin: 0 0 47px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.page-404__link {
+	display: inline-block;
+	margin: 31px 0 0;
+	padding: 14px 180px 13px;
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff;
+	background: #313131;
+	border: none;
+	cursor: pointer;
+}
+
+@media (max-width: 739px) {
+	.page-404 {
+		text-align: center;
+	}
+	.page-404__title {
+		font-size: 30px;
+	}
+	.page-404__text {
+		width: 100%;
+		margin: 0 auto 47px;
+	}
+	.page-404__link {
+		display: block;
+		padding: 14px 0 13px;
+	}
+}

@@ -1,0 +1,176 @@
+.trainer {
+	margin: -164px 0 0;
+}
+
+.trainer__photo {
+	float: left;
+	width: 390px;
+	border-radius: 50%;
+}
+
+.trainer__info {
+	position: relative;
+	margin: 0 0 98px 490px;
+	padding: 5px 0 0;
+}
+
+.trainer__info::after {
+	content: "";
+	position: absolute;
+	bottom: -148px;
+	left: 50%;
+	margin: 0 0 0 -298px;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 50px solid #fff;
+}
+
+.trainer__info-title {
+	position: relative;
+	top: auto;
+	right: auto;
+	bottom: auto;
+	left: auto;
+	background: none;
+	margin: 0 0 29px;
+	padding: 0;
+	font-size: 40px;
+	font-weight: 700;
+	text-align: left;
+}
+
+.trainer__info-quote {
+	margin: 0 0 34px;
+	font-size: 16px;
+	line-height: 21px;
+	color: #006635;
+}
+
+.trainer__info-text {
+	margin: 0 0 26px;
+	font-size: 16px;
+	line-height: 21px;
+	color: #4b4b4b;
+}
+
+.trainer__bio {
+	height: 227px;
+	padding: 107px 0 77px;
+	background: url(../img/trainer__bio.jpg) 0 0 no-repeat;
+}
+
+.trainer__bio-text {
+	margin: 0 0 29px;
+	font-size: 16px;
+	line-height: 21px;
+	color: #fff;
+}
+
+.trainer__cert {
+	height: 450px;
+	margin: 0 0 -76px;
+	padding: 72px 0 133px;
+	background: url(../img/trainer__cert.jpg);
+}
+
+.trainer__cert-title {
+	margin: 0 0 67px;
+	font-size: 40px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+	color: #4b4b4b;
+}
+
+.trainer__cert ul {
+	display: inline-block;
+	width: 42%;
+	margin: 0 155px 0 20px;
+	list-style: disc;
+	font-size: 16px;
+	color: #4b4b4b;
+	vertical-align: top;
+}
+
+.trainer__cert ul + ul {
+	margin: 0;
+}
+
+.trainer__cert li {
+	margin: 0 0 32px;
+	padding: 0 0 0 10px;
+}
+
+.trainer__cert-arrow {
+	position: absolute;
+	left: 50%;
+	bottom: -54px;
+	width: 20px;
+	height: 20px;
+	font-size: 70px;
+	font-weight: 300;
+	border-bottom: 2px solid #9e9e9d;
+}
+
+.trainer__cert-arrow--left {
+	margin: 0 0 0 -20px;
+	border-left: 2px solid #9e9e9d;
+	transform: rotate(45deg);
+}
+
+.trainer__cert-arrow--right {
+	margin: 0 0 0 -5px;
+	border-right: 2px solid #9e9e9d;
+	transform: rotate(-45deg);
+}
+
+@media (max-width: 1163px) {
+	.trainer__cert ul {
+		margin: 0 135px 0 20px;
+	}
+}
+
+@media (max-width: 1023px) {
+	.trainer__info {
+		margin: 0 0 98px 430px;
+	}
+	.trainer__bio {
+		height: 257px;
+		padding: 77px 0 77px;
+	}
+	.trainer__cert ul {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.trainer__cert li {
+		margin: 0 0 10px;
+	}
+}
+
+@media (max-width: 739px) {
+	.trainer__photo {
+		float: none;
+		width: 100%;
+		margin: 0 0 30px;
+		text-align: center;
+	}
+	.trainer__info {
+		margin: 0;
+	}
+	.trainer__info::after {
+		content: "";
+		display: none;
+	}
+	.trainer__bio {
+		height: auto;
+		background: #002d1b;
+		padding: 50px 0 20px;
+	}
+	.trainer__info-title {
+		text-align: center;
+	}
+	.trainer__cert {
+		height: auto;
+		background: #e0dfdd;
+	}
+}
