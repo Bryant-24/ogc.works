@@ -1,5 +1,5 @@
 .our-training {
-	margin: 110px 0 118px;
+	margin: 110px 0 124px;
 }
 
 .our-training__title {
@@ -72,4 +72,21 @@
 .our-training__silder-item-link:hover {
 	color: #0d643f;
 	background: #fff;
+}
+
+
+@media (max-width: 1163px) {
+	.our-training__silder-item {
+		width: 315px;
+		margin: 0 26px 0 0;
+	}
+	.our-training__silder-item-title {
+		height: 50px;
+		font-size: 22px;
+		line-height: 24px;
+	}
+	.our-training__silder-info {
+		margin: 0 0 24px;
+		font-size: 18px;
+	}
 }
